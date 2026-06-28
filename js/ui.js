@@ -1,39 +1,41 @@
 export function createHomeScreen() {
-
     return `
+        <div class="game-container">
 
-    <main class="home-screen">
+            <div class="background-layer"></div>
 
-        <div class="menu-card">
+            <main class="menu-wrapper">
 
-            <h1 class="game-title">
-                The Last Splat
-            </h1>
+                <section class="glass-card">
 
-            <p class="game-subtitle">
-                Relax. Tap. Splat.
-            </p>
+                    <h1 class="game-title">
+                        The Last Splat
+                    </h1>
 
-            <div class="menu-buttons">
+                    <p class="game-subtitle">
+                        Relax • Tap • Smile
+                    </p>
 
-                <button class="menu-btn" id="playBtn">
-                    Play
-                </button>
+                    <div class="menu-buttons">
 
-                <button class="menu-btn">
-                    Settings
-                </button>
+                        <button class="neo-btn" id="playBtn">
+                            Play
+                        </button>
 
-                <button class="menu-btn">
-                    Achievements
-                </button>
+                        <button class="neo-btn">
+                            Settings
+                        </button>
 
-            </div>
+                        <button class="neo-btn">
+                            Achievements
+                        </button>
+
+                    </div>
+
+                </section>
+
+            </main>
 
         </div>
-
-    </main>
-
     `;
-
 }
