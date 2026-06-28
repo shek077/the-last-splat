@@ -1,1 +1,159 @@
+/*==================================================
+                THE LAST SPLAT
+                  Base Styles
+==================================================*/
 
+/*==============================
+        Reset
+==============================*/
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*==============================
+      HTML & BODY
+==============================*/
+
+html{
+    font-size:16px;
+    scroll-behavior:smooth;
+}
+
+body{
+
+    width:100vw;
+    height:100vh;
+
+    overflow:hidden;
+
+    font-family:var(--font);
+
+    background:linear-gradient(
+        180deg,
+        var(--bg-secondary),
+        var(--bg)
+    );
+
+    color:var(--text);
+
+    user-select:none;
+
+    -webkit-tap-highlight-color:transparent;
+
+}
+
+/*==============================
+      Root Container
+==============================*/
+
+#app{
+
+    position:relative;
+
+    width:100%;
+
+    height:100%;
+
+    overflow:hidden;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/*==============================
+      Utility Classes
+==============================*/
+
+.hidden{
+    display:none !important;
+}
+
+.center{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.fullscreen{
+
+    width:100%;
+    height:100%;
+
+}
+
+/*==============================
+      Images
+==============================*/
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+/*==============================
+      Buttons
+==============================*/
+
+button{
+
+    font-family:inherit;
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    background:none;
+
+}
+
+/*==============================
+      Links
+==============================*/
+
+a{
+
+    color:inherit;
+
+    text-decoration:none;
+
+}
+
+/*==============================
+      Lists
+==============================*/
+
+ul{
+
+    list-style:none;
+
+}
+
+/*==============================
+      Selection
+==============================*/
+
+::selection{
+
+    background:var(--primary);
+
+    color:white;
+
+}
