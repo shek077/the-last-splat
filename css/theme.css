@@ -1,1 +1,114 @@
+/*==================================================
+                THE LAST SPLAT
+            NeoGlass Sage Theme System
+==================================================*/
 
+:root{
+
+/*==============================
+    Nature Colors
+==============================*/
+
+--bg:#f0fff4;
+--bg-secondary:#f7fff8;
+
+--surface:#e8f5e9;
+--surface-light:#ffffff;
+--surface-dark:#d8ebda;
+
+--primary:#66bb6a;
+--primary-light:#81c784;
+--primary-dark:#43a047;
+
+--accent:#9ccc65;
+--gold:#FFD54F;
+
+--text:#2e7d32;
+--text-light:#4caf50;
+--text-dark:#1b5e20;
+
+--danger:#ef5350;
+--warning:#ffb300;
+--success:#66bb6a;
+
+/*==============================
+      Glass Effects
+==============================*/
+
+--glass:rgba(255,255,255,.35);
+--glass-light:rgba(255,255,255,.60);
+--glass-dark:rgba(255,255,255,.20);
+
+--blur:18px;
+
+/*==============================
+      Shadows
+==============================*/
+
+--shadow-light:
+-8px -8px 16px rgba(255,255,255,.9);
+
+--shadow-dark:
+8px 8px 16px rgba(190,215,195,.55);
+
+--shadow-soft:
+0 10px 30px rgba(0,0,0,.08);
+
+--shadow-hover:
+0 20px 40px rgba(0,0,0,.12);
+
+/*==============================
+      Radius
+==============================*/
+
+--radius-xs:10px;
+--radius-sm:16px;
+--radius-md:22px;
+--radius-lg:32px;
+--radius-xl:50px;
+--radius-circle:999px;
+
+/*==============================
+      Spacing
+==============================*/
+
+--space-xs:.5rem;
+--space-sm:1rem;
+--space-md:1.5rem;
+--space-lg:2rem;
+--space-xl:3rem;
+
+/*==============================
+      Typography
+==============================*/
+
+--font:'Poppins',sans-serif;
+
+--fs-xs:.8rem;
+--fs-sm:.95rem;
+--fs-md:1rem;
+--fs-lg:1.25rem;
+--fs-xl:2rem;
+--fs-xxl:3rem;
+
+/*==============================
+      Animation
+==============================*/
+
+--transition-fast:.2s ease;
+
+--transition:.35s ease;
+
+--transition-slow:.6s ease;
+
+/*==============================
+      Layer Order
+==============================*/
+
+--z-background:1;
+--z-game:10;
+--z-ui:100;
+--z-popup:500;
+--z-modal:1000;
+
+}
