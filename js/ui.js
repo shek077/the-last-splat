@@ -2,7 +2,13 @@ export function createHomeScreen() {
     return `
         <div class="game-container">
 
-            <div class="background-layer"></div>
+           <div class="background-layer">
+
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+
+</div>
 
             <main class="menu-wrapper">
 
