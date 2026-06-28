@@ -206,3 +206,106 @@ body{
     overflow:hidden;
 
 }
+/*=========================================
+            CLOUDS
+=========================================*/
+
+.cloud{
+
+    position:absolute;
+
+    background:rgba(255,255,255,.7);
+
+    border-radius:100px;
+
+    filter:blur(2px);
+
+}
+
+.cloud::before,
+.cloud::after{
+
+    content:"";
+
+    position:absolute;
+
+    background:inherit;
+
+    border-radius:100px;
+
+}
+
+.cloud1{
+
+    width:180px;
+    height:60px;
+
+    top:12%;
+
+    left:-220px;
+
+    animation:cloudMove 42s linear infinite;
+
+}
+
+.cloud1::before{
+
+    width:80px;
+    height:80px;
+
+    left:25px;
+    top:-25px;
+
+}
+
+.cloud1::after{
+
+    width:70px;
+    height:70px;
+
+    right:20px;
+    top:-18px;
+
+}
+
+.cloud2{
+
+    width:140px;
+    height:50px;
+
+    top:28%;
+
+    left:-180px;
+
+    animation:cloudMove 55s linear infinite;
+
+}
+
+.cloud3{
+
+    width:220px;
+    height:70px;
+
+    top:8%;
+
+    left:-260px;
+
+    animation:cloudMove 70s linear infinite;
+
+}
+
+@keyframes cloudMove{
+
+    from{
+
+        transform:translateX(0);
+
+    }
+
+    to{
+
+        transform:translateX(calc(100vw + 450px));
+
+    }
+
+}
