@@ -183,3 +183,26 @@ body{
     transform:scale(.98);
 
 }
+/*=========================================
+        BACKGROUND SKY
+=========================================*/
+
+.background-layer{
+
+    position:absolute;
+    inset:0;
+
+    background:
+    radial-gradient(circle at top,
+    rgba(255,255,255,.95),
+    transparent 55%),
+
+    linear-gradient(
+    180deg,
+    #f9fff9,
+    #eefbef,
+    #e4f7e7);
+
+    overflow:hidden;
+
+}
