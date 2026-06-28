@@ -2,6 +2,10 @@ import { createHomeScreen } from "./ui.js";
 
 const app = document.getElementById("app");
 
-app.innerHTML = createHomeScreen();
+function init() {
 
-console.log("🌿 The Last Splat Started");
+    app.innerHTML = createHomeScreen();
+
+}
+
+document.addEventListener("DOMContentLoaded", init);
